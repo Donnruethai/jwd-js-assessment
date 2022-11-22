@@ -91,6 +91,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         if (radioElement.checked) {
           // code for task 1 goes here
+          quizItem.a == `radio_${index}_${i}`
 
         }
       }
@@ -101,3 +102,9 @@ window.addEventListener('DOMContentLoaded', () => {
   displayQuiz();
 });
 
+
+  
+
+function refresh() {
+  window.location.reload();
+}
