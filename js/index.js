@@ -44,6 +44,16 @@ window.addEventListener('DOMContentLoaded', () => {
       o: ['Sydney', 'Canberra', 'Melbourne', 'Perth'],
       a: 1,
     },
+    {
+      q: 'What are the colours of the Australian Aboriginal Flag?',
+      o: ['Black red and yellow', 'Green white and black', 'Green white and blue', 'Blue white and black'],
+      a: 1, 
+    },
+    {
+      q: 'What is the Australia national fower?',
+      o: ['Jacaranda', 'Golden wattle', 'Tulip', 'Magnolia'],
+      a: 2,
+    },
   ];
 
   // function to Display the quiz questions and answers from the object
@@ -76,10 +86,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
         if (quizItem.a == i) {
           //change background color of li element here
+
         }
 
         if (radioElement.checked) {
           // code for task 1 goes here
+
         }
       }
     });
@@ -88,3 +100,4 @@ window.addEventListener('DOMContentLoaded', () => {
   // call the displayQuiz function
   displayQuiz();
 });
+
