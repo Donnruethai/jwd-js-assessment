@@ -91,20 +91,29 @@ window.addEventListener('DOMContentLoaded', () => {
 
         if (radioElement.checked) {
           // code for task 1 goes here
-          quizItem.a == `radio_${index}_${i}`
+          if (quizItem.a == r) {
+            score++;
+          }
 
         }
       }
     });
+    return score;
   };
 
   // call the displayQuiz function
   displayQuiz();
 });
 
+let submit=document.getElementById("btnSubmit");
+    submit.addEventListener("click", showscore());
 
-  
+function showscore() {
+  let totalscore = calculateScore();
+  let score = document.getElementById('score');
+  score.innerHTML = "Total score : ${totalscore}";
+};  
 
 function refresh() {
   window.location.reload();
-}
+};
