@@ -50,7 +50,7 @@ window.addEventListener('DOMContentLoaded', () => {
       a: 1, 
     },
     {
-      q: 'What is the Australia national fower?',
+      q: 'What is the Australia national flower?',
       o: ['Jacaranda', 'Golden wattle', 'Tulip', 'Magnolia'],
       a: 2,
     },
